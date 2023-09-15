@@ -35,7 +35,7 @@ For example, to run the script with a different Plex Media Scanner path and log 
 
 ```powershell
 .\ReanalyzePlex.ps1 -plexPath "C:\CustomPlex\Media Scanner.exe" -logDirectory "D:\CustomLogs"
-
+```
 
 ### Note on Analysis Duration
 When running the Plex Reanalysis Script, please be aware that the duration can vary based on several factors:
