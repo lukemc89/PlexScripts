@@ -1,7 +1,7 @@
 # Define parameters
 param (
     [string]$TaskName = "PlexReanalysis",
-    [string]$ScriptPath = "C:\Scripts\PlexAnalysis.ps1"
+    [string]$ScriptPath = "C:\Scripts\ReanalyzePlex.ps1"
 )
 
 # Check if the task already exists
