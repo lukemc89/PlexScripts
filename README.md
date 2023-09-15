@@ -1,4 +1,4 @@
-# Plex Reanalysis Script
+ # Plex Reanalysis Script
 
 ## Overview
 This repository contains a PowerShell script designed to address a specific issue with Plex Media Server. When transferring movie files to a NAS, Plex sometimes begins analyzing the file before the transfer is complete. This can lead to incorrect metadata, such as displaying a 2-hour movie as only 30 minutes long.
@@ -35,7 +35,7 @@ When running the Plex Reanalysis Script, please be aware that the duration can v
 Given the depth of the analysis, especially on extensive libraries, consider running the script during times when you don't need immediate access to your Plex server or during off-peak hours.
 
 ## Scheduled Task Script
-To automate the Plex Reanalysis, you can create a scheduled task using the provided script `CreatePlexReanalysisTask.ps1`. This script allows you to schedule the reanalysis task to run daily at a specific time, such as 2 AM. Simply provide the desired task name and script path as parameters when executing the script.
+To automate the Plex Reanalysis, you can create a scheduled task using the provided script `CreatePlexAnalysisTask.ps1`. This script allows you to schedule the reanalysis task to run daily at a specific time, such as 2 AM. Simply provide the desired task name and script path as parameters when executing the script.
 
 ### Usage
 ```powershell
