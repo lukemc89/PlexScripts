@@ -14,3 +14,9 @@ This repository contains a PowerShell script designed to address a specific issu
 3. Run the script using:
    ```powershell
    .\ReanalyzePlex.ps1
+
+## Customization
+You can modify the default parameters in the script, such as the path to the Plex Media Scanner, log directory, and more.
+
+## Feedback
+If you encounter any issues or have suggestions for improvement, please open an issue on this repository.
