@@ -39,5 +39,12 @@ To automate the Plex Reanalysis, you can create a scheduled task using the provi
 
 ### Usage
 ```powershell
-.\CreatePlexReanalysisTask.ps1 -TaskName "MyCustomTask" -ScriptPath "C:\Scripts\CustomScript.ps1"
+.\CreatePlexReanalysisTask.ps1 -TaskName "MyCustomTask" -ScriptPath "C:\Scripts\CustomScript.ps1
+```
 
+###
+
+Replace "MyCustomTask" and "C:\Scripts\CustomScript.ps1" with your desired task name and script path.
+
+### Feedback
+If you encounter any issues or have suggestions for improvement, please open an issue on this repository.
