@@ -16,8 +16,26 @@ This repository contains a PowerShell script designed to address a specific issu
    ```powershell
    .\ReanalyzePlex.ps1
 
+
 ## Customization
-You can modify the default parameters in the script, such as the path to the Plex Media Scanner, log directory, and more.
+
+You can customize the behavior of the Plex analysis script by specifying the following parameters when running the script:
+
+- `$plexPath` (Default: "C:\Program Files (x86)\Plex\Plex Media Server\Plex Media Scanner.exe"): Specifies the path to the Plex Media Scanner executable.
+
+- `$logDirectory` (Default: "C:\plex"): Specifies the directory where log files will be saved.
+
+- `$logFileName` (Default: "plex_analysis.log"): Specifies the name of the log file.
+
+- `$maxRetries` (Default: 3): Specifies the maximum number of retries in case of failures during analysis.
+
+- `$retryDelay` (Default: 10): Specifies the delay (in seconds) between retry attempts.
+
+For example, to run the script with a different Plex Media Scanner path and log directory, you can execute it like this:
+
+```powershell
+.\ReanalyzePlex.ps1 -plexPath "C:\CustomPlex\Media Scanner.exe" -logDirectory "D:\CustomLogs"
+
 
 ### Note on Analysis Duration
 When running the Plex Reanalysis Script, please be aware that the duration can vary based on several factors:
